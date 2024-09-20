@@ -1,0 +1,172 @@
+<!-- Flip Box 1 -->
+  <div class="row" style="padding-top: 10px; padding-left: 20px; font-family: 'Times New Roman', Times, serif;">
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_Dog1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Dog</b><br>
+                <p style="font-size:medium"><b>Cats:</b> Loyal, Playful, and Beloved Companions</p>
+
+                <p style="font-size:15px; text-align: justify;"> Dogs have earned their reputation as "man's best
+                  friend" for good reason. Their unwavering loyalty, playful nature, and unique qualities make them
+                  cherished companions in millions of households worldwide. Here, we'll delve into the world of dogs and
+                  the many traits that endear them to our hearts.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse"><a href="Dog.html">More
+                  About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Another
+                  link</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    &emsp;&emsp;&emsp;&emsp;&emsp13;
+    <!-- Flip Box 2 -->
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_Cat1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Cat</b><br>
+                <p style="font-size:medium"><b>Cats:</b> Mysterious, Playful, and Beloved Companions</p>
+                <p style="font-size:15px; text-align: justify;"> Cats are fascinating creatures that have captured the
+                  hearts of millions around the world. With their
+                  unique
+                  blend of independence, charm, and enigmatic behavior, they hold a special place in our lives as
+                  beloved
+                  pets.
+                  Let's explore the world of cats and the many qualities that make them such endearing companions.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse">More About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Anotherlink</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    &emsp;&emsp;&emsp;&emsp;&emsp13;
+    <!-- Flip Box 3 -->
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_Cow1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Cow</b><br>
+                <p style="font-size:medium"><b>Cows:</b> Gentle, Majestic, and Vital Beings</p>
+                <p style="font-size:15px; text-align: justify;"> Cows are domesticated animals that have played a
+                  crucial role in human history and continue to be an integral part of our lives. Their gentle nature,
+                  majestic presence, and vital contributions make them fascinating and valued beings in the world. Let's
+                  explore the world of cows and the qualities that make them remarkable creatures.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse">More About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Anotherlink</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Flip 4 -->
+  <div class="row" style="padding-top: 10px; padding-left: 20px; font-family: 'Times New Roman', Times, serif;">
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_gaot1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Goat</b><br>
+                <p style="font-size:medium"><b>Goats:</b>Hardy, Versatile, and Valued Companions</p>
+
+                <p style="font-size:15px; text-align: justify;">Goats are domesticated animals that have a rich history
+                  of interacting with humans and contributing to various aspects of our lives. Their hardy nature,
+                  versatility, and unique characteristics make them valued and intriguing creatures. Let's explore the
+                  world of goats and the qualities that set them apart.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse">More About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Another
+                  link</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    &emsp;&emsp;&emsp;&emsp;&emsp13;
+    <!-- Flip Box 5 -->
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_Seep1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Sheep</b><br>
+                <p style="font-size:medium"><b>Sheep:</b>Gentle, Resilient, and Valuable Companions</p>
+                <p style="font-size:15px; text-align: justify;"> Sheep have a long history of interaction with humans
+                  and play a significant role in agriculture and various industries. Their gentle nature, resilience,
+                  and contributions to our society make them invaluable and fascinating creatures. Let's delve into the
+                  world of sheep and the qualities that make them stand out.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse">More About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Anotherlink</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    &emsp;&emsp;&emsp;&emsp;&emsp13;
+    <!-- Flip Box 6 -->
+    <div class="flip-box">
+      <div class="flip-box-inner">
+        <div class="flip-box-front">
+          <img src="Flip_Buffalo1.jpg" alt="Paris" style="width:400px;height:250px; ">
+        </div>
+        <div class="flip-box-back">
+          <div class="card" style="width: 400px; height: 250px;">
+            <div class="card-body">
+              <!-- <h5 class="card-title">About Cat</h5> -->
+              <div class="card-subtitle mb-2 text-muted"><b style="font-size:large">About Buffalo</b><br>
+                <p style="font-size:medium"><b>Buffalo:</b> Powerful, Versatile, and Vital Companions</p>
+                <p style="font-size:15px; text-align: justify;"> Buffaloes, specifically water buffalo and bison, are
+                  large, powerful, and versatile animals that have played significant roles in human history. Their
+                  strength, adaptability, and unique characteristics make them valued and intriguing creatures. Let's
+                  explore the world of buffalo and the qualities that set them apart.
+                </p>
+              </div>
+              <button class="btn-outline-warning" type="button" data-toggle="collapse">More About</a></button>
+              <button class="btn-outline-success" type="button" data-toggle="collapse"><a href="#"
+                  class="card-link">Anotherlink</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

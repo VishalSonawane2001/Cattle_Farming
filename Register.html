@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for borders */
+        .custom-border {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(SignUp.jpg);">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Times New Roman', Times, serif;">
+        <a class="navbar-brand" href="#"><img src="logo2.3 - Copy.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Cattle.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" >Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="Services.html" >Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Login.html" >login</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#" >Register</a>
+                </li> -->
+
+            </ul>
+
+
+        </div>
+        <button type="button" class="btn btn-default">
+            <div class="nav-item" id="google_translate_element"></div>
+        </button>
+
+        <li class="nav-item">
+            <button type="button" href="Contact.html"  class="btn btn-danger">Get In Touch</button>
+        </li>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row ">
+            <div class="col-md-6 offset-md-3">
+
+                <div class="card" style="font-family: 'Times New Roman', Times, serif; background-image: url(Dog.jpg);">
+                    <div class="card-header text-center" style="font-size:20px;">
+                        <b>Register</b>
+                    </div>
+                    <div class="card-body">
+                        <form id="registrationForm">
+
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control custom-border" id="name"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control custom-border" id="email"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control custom-border" id="password"
+                                    placeholder="Enter your password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" class="form-control custom-border" id="confirmPassword"
+                                    placeholder="Confirm your password" required>
+                            </div>
+                            <div class="text-danger" id="passwordMismatch" style="display: none">Passwords do not match.
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary">Register</button>
+
+                            </div>
+                            <div class="text-center">
+                                    <a class="login-link" href="Login.html" style="color: #000 " >Aleready you have a account</a>
+                            </div>
+                            br
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        $(document).ready(function () {
+            $('#registrationForm').submit(function (e) {
+                e.preventDefault();
+                const password = $('#password').val();
+                const confirmPassword = $('#confirmPassword').val();
+
+                if (password !== confirmPassword) {
+                    $('#passwordMismatch').show();
+                } else {
+                    $('#passwordMismatch').hide();
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
